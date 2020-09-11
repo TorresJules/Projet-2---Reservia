@@ -1,0 +1,38 @@
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+section{
+    background-color: rgb(233, 232, 232);
+    width:60%;
+    height:270px;
+}
+
+.hebergement_marseille_vignette{
+    width: 250px;
+    height:200px;      
+    border: 5px solid rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 7%;
+    overflow:hidden;
+}
+
+#hebergement_marseille_ligne{
+    display:flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    padding:2em;
+}
+
+.container_img{
+    width:100%;
+    height:70%;
+    overflow:hidden;
+    display:flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
