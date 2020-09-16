@@ -8,12 +8,12 @@
 </head>
 <body>
     <header>
-        <h1>Reservia</h1>
+        <img class="logo" src="images/logo/Reservia.svg">
         <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
         <h3>En plein centre ville ou en pleine nature</h3>
         <nav>
-            <h4>Hébergements</h4>
-            <h4>Activités</h4>
+            <h4><a href="#ancre_hebergement">Hébergements</a></h4>
+            <h4><a href ="#ancre_activite">Activités</a></h4>
             <h4>S'inscrire</h4>
         </nav>
     </header>
@@ -41,8 +41,8 @@
         </div>
         <i class="fas fa-info-circle"> Plus de 500 logements sont disponibles dans cette ville</i>
     
-        <section>
-            <h2>Hébergements à marseille</h2>
+        <section class="section_hebergement">
+            <h2 id="ancre_hebergement">Hébergements à marseille</h2>
             <div id="hebergement_marseille_ligne">
                 <div class=hebergement_marseille_vignette>
                     <div class="container_img">
@@ -95,9 +95,9 @@
             </div>
             <p>Afficher plus</p>
         </section>
-        <section>
+        <aside class="aside_popu">
+            <h2>Les plus populaires</h2> <i class="fas fa-chart-line"></i>
             <div id="les_plus_popu">
-                <p>Les plus populaires</p> <i class="fas fa-chart-line"></i>
                 <div class="vignette_popu">
                     <div class="container_popu_img">
                     <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel le soleil du matin">
@@ -119,6 +119,54 @@
                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
                 </div>
             </div>
-        </section>
-    
+        </aside>
+<section>
+    <div class="activites">
+        <h2 id="ancre_activite">Activités à Marseille</h2>
+        <div class="vignette_activites">
+            <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port">
+            Vieux port
+        </div>
+        <div class="vignette_activites">
+            <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
+            Fort de Pomègues
+        </div>
+        <div class="vignette_activites">
+            <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles de Frioul">
+            Îles de Frioul
+        </div>
+        <div class="vignette_activites">
+            <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc national des Calanques">
+            Parc national des Calanques
+        </div>
+        <div class="vignette_activites">
+            <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
+            Notre-Dame-de-la-Garde
+        </div>
+        <div class="vignette_activites">
+            <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp">
+            Parc Longchamp
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="nav_footer">
+        <h3 class="titre_footer">A propos</h3>
+        <p class="choix_footer">Fonctionnement du site</p>
+        <p class="choix_footer">Conditions générales de vente</p>
+        <p class="choix_footer">Données et confidentialité</p>
+    </div>
+    <div class="nav_footer">
+        <h3 class="titre_footer">Nos hébergements</h3>
+        <p class="choix_footer">Charte qualité</p>
+        <p class="choix_footer">Soumettre votre hôtel</p>
+    </div>
+    <div class="nav_footer">
+        <h3 class="titre_footer">Assistance</h3>
+        <p class="choix_footer">Centre d'aide</p>
+        <p class="choix_footer">Nous contacter</p>
+    </div>
+
+</footer>
 </body>
+</html>
