@@ -11,7 +11,7 @@
         <img class="logo" src="images/logo/Reservia.svg">
         <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
         <h3>En plein centre ville ou en pleine nature</h3>
-        <nav>
+        <nav class="nav_haut">
             <h4><a href="#ancre_hebergement">Hébergements</a></h4>
             <h4><a href ="#ancre_activite">Activités</a></h4>
             <h4>S'inscrire</h4>
@@ -19,9 +19,11 @@
     </header>
         <div id="recherche">
             <form method="post" action="traitement.php">
-                <p>
+                    <div id="pin_ville">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
                     <input type="text" name="Ville" placeholder="Vous allez où ?"/>
-                </p>
+                    <button>Rechercher</button>
             </form>
         </div>
         <div id="filtres">

@@ -16,6 +16,17 @@
     width:100px;
 }
 
+.nav_haut{
+    width:20%;
+    display: flex;
+    justify-content: space-between;
+    position:absolute; right:20px; top:15px;
+    
+}
+
+#recherche{
+    display:flex;
+}
 h2{
     font-family: "Raleway-Thin";
     font-weight: normal;
