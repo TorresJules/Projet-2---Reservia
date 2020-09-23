@@ -25,8 +25,33 @@
 }
 
 #recherche{
+    width:17em;
     display:flex;
+    border-style:solid;
+    border-color:rgb(242,242,242);
 }
+
+#pin_ville{
+    width:1em;
+    height:100%;
+    padding:;
+    background-color: rgb(242,242,242);
+    display:inline-block;
+}
+
+#zone_recherche{
+    width:10em;
+    
+    display:inline-block;
+}
+
+#bouton_recherche{
+    height:100%;
+    background-color: rgb(0,101,252);
+    display:inline-block;
+    color:white;
+}
+
 h2{
     font-family: "Raleway-Thin";
     font-weight: normal;
