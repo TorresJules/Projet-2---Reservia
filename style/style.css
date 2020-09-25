@@ -11,6 +11,12 @@
     font-style: normal;
   }
 
+body{
+    font-family: "Raleway-Thin";
+    font-weight: normal;
+    font-style: normal;
+}
+
 .logo{
     height:80px;
     width:100px;
@@ -26,22 +32,23 @@
 
 #recherche{
     width:17em;
+    height:2em;
     display:flex;
+    align-items: center;
     border-style:solid;
     border-color:rgb(242,242,242);
+    background-color: rgb(242,242,242);
 }
 
 #pin_ville{
     width:1em;
     height:100%;
-    padding:;
     background-color: rgb(242,242,242);
     display:inline-block;
 }
 
 #zone_recherche{
     width:10em;
-    
     display:inline-block;
 }
 
@@ -52,11 +59,27 @@
     color:white;
 }
 
-h2{
-    font-family: "Raleway-Thin";
-    font-weight: normal;
-    font-style: normal;
+#filtres{
+    width:60%;
+    display:flex;
+    justify-content: space-around;
 }
+
+.filtre_choix{
+    display:flex;
+    align-items:center;
+}
+
+#info_resultats_recherche{
+    display:flex;
+    align-items: center;
+}
+
+#bloc_principal{
+    display:flex;
+    justify-content: space-around;
+}
+
 img{
     width: 100%;
     height: auto;
@@ -66,7 +89,7 @@ img{
 .section_hebergement{
     background-color: rgb(233, 232, 232);
     width:60%;
-    height:270px;
+    height:600px;
 }
 
 .hebergement_marseille_vignette{
@@ -98,8 +121,19 @@ img{
 
 .aside_popu{
     background-color: rgb(233, 232, 232);
+    width:30%;
+    height:700px;
+    display:flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.titre_popu{
     width:60%;
-    height:270px;
+    padding:0em 1em;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .container_popu_img{
@@ -110,15 +144,6 @@ img{
     position: relative;
     align-items: center;
     justify-content: center;
-}
-
-.les_plus_popu{
-    width: 250px;
-    height:200px;      
-    border: 5px solid rgb(255, 255, 255);
-    background-color: white;
-    border-radius: 7%;
-    overflow:hidden;
 }
 
 .vignette_popu{
