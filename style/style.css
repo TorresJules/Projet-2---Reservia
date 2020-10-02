@@ -164,6 +164,7 @@ img{
     display:flex;
     flex-direction: column;
     align-content: space-between;
+    border-radius: 4%;
 }
 
 .titre_popu{
