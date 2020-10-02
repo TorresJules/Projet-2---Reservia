@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-    <div id="conteneur_all">
-        <head>
+    <head>
             <title>Reservia</title>
             <meta charset="utf-8">
             <script src="https://kit.fontawesome.com/d19b3afdda.js" crossorigin="anonymous"></script>
         <link href="style/style.css" rel="stylesheet">
         </head>
         <body>
+            <div id="conteneur_all">
             <header>
                 <div id="en-tete">
                     <img class="logo" src="images/logo/Reservia.svg">
@@ -56,7 +56,9 @@
                 </div>
             <div id="bloc_principal">
                 <section class="section_hebergement">
-                    <h2 id="ancre_hebergement">Hébergements à marseille</h2>
+                    <div id="titre_hebergement">
+                        <h2 id="ancre_hebergement">Hébergements à marseille</h2>
+                    </div>
                     <div id="hebergement_marseille_ligne">
                         <div class=hebergement_marseille_vignette>
                             <div class="container_img">
@@ -136,31 +138,52 @@
                                 </div>
                             </div>
                     </div>
-                    <p>Afficher plus</p>
+                    <div id="afficher_plus">
+                        <p>Afficher plus</p>
+                    </div>
                 </section>
                 <aside class="aside_popu">
                     <div class="titre_popu">
                         <h2>Les plus populaires</h2> <i class="fas fa-chart-line"></i>
                     </div>
+
                         <div class="vignette_popu">
                             <div class="container_popu_img">
-                            <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel le soleil du matin">
+                                <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel le soleil du matin">
                             </div>
-                            Hôtel le soleil du matin<br>
-                            Nuit à partir de 128€<br>
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <div class="description_popu">
+                                Hôtel le soleil du matin<br>
+                                Nuit à partir de 128€<br>
+                                <div class="etoiles">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
                         </div>
+
                         <div class="vignette_popu">
-                            <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes">
-                            Au coeur de l'eau Chambres d'hôtes<br>
-                            Nuit à partir de 71€<br>
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                            <div class="container_popu_img">
+                                <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes">
+                            </div>
+                            <div class="description_popu">
+                                Au coeur de l'eau Chambres d'hôtes<br>
+                                Nuit à partir de 71€<br>
+                                <div class="etoiles">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                </div>
+                            </div>
                         </div>
+                    
                         <div class="vignette_popu">
-                            <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel tout bleu et blanc">
-                            Hôtel tout bleu et blanc<br>
-                            Nuit à partir de 68€<br>
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                            <div class="container_popu_img">
+                                <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel tout bleu et blanc">
+                            </div>
+                            <div class="description_popu">
+                                Hôtel tout bleu et blanc<br>
+                                Nuit à partir de 68€<br>
+                                <div class="etoiles">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                </div>
+                            </div>
                         </div>
                 </aside>
             </div>
@@ -213,6 +236,6 @@
             </div>
 
         </footer>
+        </div>
         </body>
-    </div>
 </html>
